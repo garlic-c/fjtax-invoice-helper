@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "福建开票信息自动展示",
+  "version": "1.8.1",
+  "description": "为福建蓝字开票页面提供展示选项管理、指定提示跳过和项目名称多行编辑，全部功能由用户选择开启。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://dppt.fujian.chinatax.gov.cn:8443/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
