@@ -1,14 +1,14 @@
-# 福建开票信息自动展示
+# 福建税务开票页面辅助插件
 
 为福建电子税务局蓝字开票页面提供展示选项和项目名称编辑辅助，包含 Chrome / Edge 扩展和 Tampermonkey 油猴脚本两个版本。
 
-**当前版本：1.8.1 · 完全免费 · 独立第三方工具**
+**当前版本：1.8.2 · 完全免费 · 独立第三方工具**
 
 ## 下载
 
-- [下载安装包](https://github.com/garlic-c/fujian-invoice-display/raw/refs/heads/main/downloads/fujian-invoice-display-v1.8.1.zip)
-- [安装油猴脚本](https://github.com/garlic-c/fujian-invoice-display/raw/refs/heads/main/fujian-invoice-display.user.js)
-- [查看版本发布页](https://github.com/garlic-c/fujian-invoice-display/releases)
+- [下载安装包](https://github.com/garlic-c/fjtax-invoice-helper/raw/refs/heads/main/downloads/fjtax-invoice-helper-v1.8.2.zip)
+- [安装油猴脚本](https://github.com/garlic-c/fjtax-invoice-helper/raw/refs/heads/main/fjtax-invoice-helper.user.js)
+- [查看版本发布页](https://github.com/garlic-c/fjtax-invoice-helper/releases)
 
 两个版本任选其一，不建议同时启用。
 
@@ -32,14 +32,14 @@
 1. 下载并解压安装包。
 2. 在 Chrome 打开 `chrome://extensions`，或在 Edge 打开 `edge://extensions`。
 3. 开启“开发者模式”，点击“加载已解压的扩展程序”。
-4. 选择解压后的 `fujian-invoice-display/chrome-extension` 文件夹，其中包含 `manifest.json`。
+4. 选择解压后的 `fjtax-invoice-helper/chrome-extension` 文件夹，其中包含 `manifest.json`。
 5. 保存当前未完成工作后，重新进入开票页面。
 
 更新时替换原扩展文件夹中的文件，在扩展管理页点击“重新加载”，再重新进入页面。无需 Chrome 网上应用店注册或付款。
 
 ## 安装油猴脚本
 
-先安装 Tampermonkey，再点击上方“安装油猴脚本”。如未弹出安装页，可在油猴中添加新脚本，用本仓库 `fujian-invoice-display.user.js` 全部内容替换默认代码并保存。
+先安装 Tampermonkey，再点击上方“安装油猴脚本”。如未弹出安装页，可在油猴中添加新脚本，用本仓库 `fjtax-invoice-helper.user.js` 全部内容替换默认代码并保存。
 
 若油猴提示需要浏览器开发者模式或允许用户脚本，请按照其提示设置。更新时替换现有脚本，不要重复安装两个副本。
 
@@ -63,8 +63,7 @@
 
 ## 反馈
 
-- [提交问题](https://github.com/garlic-c/fujian-invoice-display/issues)
+- [提交问题](https://github.com/garlic-c/fjtax-invoice-helper/issues)
 - 维护者：Gerley
-- 支持邮箱：Gerleychan@live.com
 
 本工具与税务机关无隶属或官方合作关系，不提供税务咨询，不改变法定开票规则。

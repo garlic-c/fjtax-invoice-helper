@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "福建开票信息自动展示",
-  "version": "1.8.1",
+  "name": "福建税务开票页面辅助插件",
+  "version": "1.8.2",
   "description": "为福建蓝字开票页面提供展示选项管理、指定提示跳过和项目名称多行编辑，全部功能由用户选择开启。",
   "content_scripts": [
     {

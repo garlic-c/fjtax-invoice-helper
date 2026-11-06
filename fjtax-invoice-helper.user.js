@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         福建开票信息自动展示
+// @name         福建税务开票页面辅助插件
 // @namespace    local.fujian.invoice-display
-// @version      1.8.1
-// @description  自动勾选购销双方地址、开户银行的四个“是否展示”
+// @version      1.8.2
+// @description  福建税务开票页面展示设置、指定提示跳过和项目名称多行编辑
 // @match        https://dppt.fujian.chinatax.gov.cn:8443/*
 // @run-at       document-idle
 // @grant        none
